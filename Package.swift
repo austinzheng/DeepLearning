@@ -35,5 +35,8 @@ let package = Package(
         .testTarget(
             name: "MNIST",
             dependencies: ["DeepLearning"]),
+        .testTarget(
+            name: "PRNGTests",
+            dependencies: ["DeepLearning"]),
     ]
 )
